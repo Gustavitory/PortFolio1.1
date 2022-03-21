@@ -1,0 +1,48 @@
+.titleCont{
+    position: absolute;
+    color: white;
+    text-align: center;
+    background: #001f25d2;
+    border-radius: 5%;
+    top: 50px;
+    left: 25px;
+}
+.title{
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+  animation: 3s colorified linear infinite ;
+}
+
+@keyframes colorified {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.sub{
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 70px;
+    margin: 0;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    
+}
+.link:hover{
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+  animation: 3s colorified linear infinite ;
+}
