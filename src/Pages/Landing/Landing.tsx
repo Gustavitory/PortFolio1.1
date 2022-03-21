@@ -1,6 +1,6 @@
 import React from 'react'
-import { Bowl } from '../../Components/Bowl';
-import { LinkType1 } from '../../Components/LinkType1';
+// import { Bowl } from '../../Components/Bowl';
+// import { LinkType1 } from '../../Components/LinkType1';
 import { Swirl } from '../../Components/Swirl';
 import '../../Styles/Bowl/BowlStyles.css';
 
