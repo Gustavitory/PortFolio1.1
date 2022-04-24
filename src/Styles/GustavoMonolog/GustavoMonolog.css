@@ -1,0 +1,56 @@
+.GMonoD{
+    width: max-content;
+    height: auto;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.foto{
+    width: 400px;
+}
+.monolog{
+    color: white;
+    background: #001f25;
+    height: max-content;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10000000;
+    padding: 10px;
+    animation: colorofied 3s linear infinite;
+    
+}
+
+.monolog::before{
+    content: '';
+    position: absolute;
+    border: 5px solid #00efff;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    animation: colorified 4s linear infinite;
+}
+
+.title{
+    font-size: 4em;
+}
+.subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buttonCV{
+    margin: 18px;
+}
+
+@keyframes colorified {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    
+}

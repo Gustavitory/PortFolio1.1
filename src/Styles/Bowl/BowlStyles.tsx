@@ -8,7 +8,7 @@ export const SectionCont=styled.section`
     justify-content: center;
     align-items: center;
     min-height:100vh;
-    background: #121212;
+    background: #001f25;
 `
 export const Liquid=styled.div({
     
