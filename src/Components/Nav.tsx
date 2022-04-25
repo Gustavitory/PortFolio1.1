@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 import { useDispatch ,useSelector} from 'react-redux';
 import { initial } from '../Redux/Reducer';
 import { NavManagement } from '../Redux/Actions';
-import { SocialBar } from './SocialBar';
 
 interface varCSS extends CSSProperties{
     '--clr':String

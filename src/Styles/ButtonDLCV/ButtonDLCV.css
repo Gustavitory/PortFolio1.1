@@ -1,0 +1,63 @@
+.listContt{
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    left: 50%;
+    top: 78%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.listItemss{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.listItemss:hover{
+    z-index: 10000;
+    transform: scale(0.75);
+}
+.listItemss::before{
+    content: '';
+    position: absolute;
+    inset: 14px;
+    box-shadow: 0 0 0 4px var(--clr),
+    0 0 0 10px #001f25,
+    0 0 0 11px var(--clr);
+    transition:0.5s
+}
+.listItemss:hover::before{
+    inset: 0px;
+}
+.listItemss::after{
+    content: '';
+    position:absolute;
+    inset: 0px;
+    background: #001f25;
+    transform: rotate(45deg);
+}
+.socialLinkk{
+    position: relative;
+    text-decoration: none;
+    color: var(--clr);
+    z-index: 10;
+    font-size: 2em;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.listItemss:hover .socialLinkk{
+    color:var(--clr);    
+    filter: drop-shadow(0 0 20px var(--clr)) drop-shadow(0 0 40px var(--clr)) drop-shadow(0 0 60px var(--clr));
+    font-size: 3em;
+}

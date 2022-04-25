@@ -8,12 +8,12 @@
     margin: 10px;
 }
 .foto{
-    width: 400px;
+    width: 350px;
 }
 .monolog{
     color: white;
     background: #001f25;
-    height: max-content;
+    height: 20em;
     border-radius: 10px;
     position: relative;
     z-index: 10000000;

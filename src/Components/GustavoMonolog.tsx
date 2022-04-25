@@ -18,7 +18,6 @@ export const GustavoMonolog = ({title,text,subtitle,descarga}:props) => {
           <h1 className='title'>{title}</h1>
           <h2 className='subtitle'>{subtitle}</h2>
           <p  className='text'>{text}</p>
-          <button className='buttonCV'>{descarga}</button>
           <ButtonDLCV/>
         </div>
     </div>
