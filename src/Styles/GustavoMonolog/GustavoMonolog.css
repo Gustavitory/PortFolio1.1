@@ -34,7 +34,7 @@
     animation: colorified 4s linear infinite;
 }
 
-.title{
+.titleMono{
     font-size: 4em;
 }
 .subtitle{
@@ -53,4 +53,47 @@
         filter: hue-rotate(360deg);
     }
     
+}
+.icons{
+    width: 100px;
+    animation: levitate 4s infinite linear;
+    transition: 2s;
+    animation-delay: calc(0.5s * var(--d));
+}
+.js{
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    filter:drop-shadow(0 0 20px rgba(225, 215, 35, 0.4)) drop-shadow(0 0 40px rgba(225, 215, 35, 0.4)) drop-shadow(0 0 60px rgba(225, 215, 35, 0.4))
+}
+.react{
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    filter:drop-shadow(0 0 20px rgba(35, 203, 225, 0.4)) drop-shadow(0 0 40px rgba(35, 203, 225, 0.4)) drop-shadow(0 0 60px rgba(35, 203, 225, 0.4))
+}
+.ts{
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    width: 90px;
+    filter:drop-shadow(0 0 20px rgba(35, 108, 225, 0.4)) drop-shadow(0 0 40px rgba(35, 108, 225, 0.4)) drop-shadow(0 0 60px rgba(35, 108, 225, 0.4));
+}
+.node{
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    width: 90px;
+    filter:drop-shadow(0 0 20px rgba(35, 225, 51, 0.4)) drop-shadow(0 0 40px rgba(35, 225, 51, 0.4)) drop-shadow(0 0 60px rgba(35, 225, 51, 0.4));
+}
+@keyframes levitate {
+    0%{
+        transform:translateY(0%);
+    }
+    50%{
+        transform:translateY(20%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
 }
