@@ -13,13 +13,16 @@
 .monolog{
     color: white;
     background: #001f25;
-    height: 20em;
+    height: max-content;
     border-radius: 10px;
     position: relative;
     z-index: 10000000;
     padding: 10px;
     animation: colorofied 3s linear infinite;
     
+}
+.big{
+    height: 20em;
 }
 
 .monolog::before{

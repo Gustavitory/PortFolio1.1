@@ -4,6 +4,7 @@ import './App.css';
 import { Nav } from './Components/Nav';
 import { Home } from './Pages/Home/Home';
 import { Landing } from './Pages/Landing/Landing';
+import { Tech } from './Pages/Tech/Tech';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Route path='/' element={<Landing/>}/>
         <Route path='/home' element={<Home/>}/>
         <Route path='/about' element={<Nav/>}/>
-        <Route path='/tech' element={<Nav/>}/>
+        <Route path='/tech' element={<Tech/>}/>
         <Route path='/contact' element={<Nav/>}/>
         <Route path='/proj' element={<Nav/>}/>
       </Routes>

@@ -3,3 +3,13 @@
   font-family: 'Courier Prime', monospace;
   background-color: #001f25;
 }
+.page{
+  background-color: #001113;
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 3s;
+}

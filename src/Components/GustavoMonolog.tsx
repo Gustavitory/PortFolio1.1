@@ -27,7 +27,7 @@ export const GustavoMonolog = ({title,text,subtitle,descarga}:props) => {
   return (
     <div className='GMonoD'>
         <img className='foto' src={gustavo} alt="yo" />
-        <div className='monolog'>
+        <div className='monolog big'>
           <h1 className='title titleMono'>{title}</h1>
           <h2 className='subtitle'>{subtitle}</h2>
           <p  className='text'>{text}</p>
