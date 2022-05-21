@@ -1,0 +1,23 @@
+.LenguajeButtom{
+    cursor: pointer;
+    background: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    left: 91%;
+    top: 25px;
+}
+.ES{
+    background-image: url("../../Images/Espanish.png");
+    background-size: contain;
+    text-shadow: 3px 3px 3px rgb(115, 115, 115);
+}
+.EN{
+    background-image: url('../../Images/English.png');
+    background-size: contain;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}

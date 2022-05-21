@@ -1,0 +1,25 @@
+.circularImg{
+    border-radius: 50%;
+    width: 300px;
+}
+.circularCont{
+    position: relative;
+    cursor: pointer;
+}
+.circularText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 25px;
+    text-shadow: 4px 2px 2px rgb(43, 43, 43);
+}
+.BackButtom{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    cursor: pointer;
+}

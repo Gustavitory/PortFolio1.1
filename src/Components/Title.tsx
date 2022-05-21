@@ -11,7 +11,7 @@ interface Props{
 
 export const Title = ({title,subtitle,link,linkDialog}:Props) => {
   return (
-    <div className='titleCont'>
+    <div className='titleCont monolog'>
           <h1 className='title'>{title}</h1>
           <p className='sub'>{subtitle}</p>
           <Link className='link' to={`${link}`}>{linkDialog}</Link>

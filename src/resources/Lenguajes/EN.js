@@ -28,5 +28,13 @@ export const EN={
         sequelize:'Sequelize is a promise-based ORM for Node. js and io. js. It supports PostgreSQL , MySQL , MariaDB , SQLite and MSSQL dialects and has strong transaction support, relationships, read replication and more.',
         sql:'SQL is a domain-specific language designed to administer and retrieve information from relational database management systems. ',
         git:'Git is version control software designed by Linus Torvalds for the efficiency, reliability, and compatibility of application versioning when applications have a large number of source code files.'
+    },
+    about:{
+        personal:[
+            {title:'A look beyond the professional.',subtitle: '',content:"Throughout my life I have characterized myself as someone quite empathetic, disciplined and above all grateful, this has allowed me to forge quite lasting friendly relationships throughout my life, I like to meet new people and make myself known, they usually describe me as someone quite extroverted, I like to dedicate time to my studies but also to other activities that excite me such as playing the guitar, playing soccer and cooking. I am a person who can be counted on for anything, I usually ask a lot when I don't fully understand something, it is a habit that has helped me advance in the technological world, I still find myself learning new technologies and perfecting the ones I already know, however in In the future, I will become an expert in cybersecurity, since in a world that is increasingly inclined to the technological side, there will be a great lack of people who guarantee the security of users and organizations."}
+        ],
+        proffesional:[
+            {title:'Fonax',subtitle:'Full Stack Engineer (ago-2021/jun-2022)',link:'http://www.fonax.com/web/',contact:'at.fonax@gmail.com / +584141420763',supervisor:'Atcherley Zapata',content:"As a developer at FONAX I fulfilled several development tasks, among them are: Development of functionalities for apps, servers development, user interface maintenance, applications development, application maintenance, database creation and maintenance ."}
+        ]
     }
 }

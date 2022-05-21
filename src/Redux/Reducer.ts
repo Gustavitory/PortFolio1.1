@@ -18,6 +18,11 @@ export const Reducer=(state=initialState,action:any)=>{
                 ...state,
                 open:!state.open
             })
+        case('LENG'):
+            return({
+                ...state,
+                lenguaje:action.payload
+            })
         default:
             return state
     }

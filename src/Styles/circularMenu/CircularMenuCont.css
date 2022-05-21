@@ -1,0 +1,7 @@
+.CircularMenuCont{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}

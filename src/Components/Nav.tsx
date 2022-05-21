@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 import { useDispatch ,useSelector} from 'react-redux';
 import { initial } from '../Redux/Reducer';
 import { NavManagement } from '../Redux/Actions';
+import { LenguajeChange } from './LenguajeChange';
+import { SocialBar } from './SocialBar';
+import {campos} from '../resources/CamposSocialBar/CamposStandards'
 
 interface varCSS extends CSSProperties{
     '--clr':String
@@ -54,6 +57,7 @@ export const Nav = () => {
         return name!==selected?'': 'active'
     }
   return (
+      <>
         <div className={`navigation ${classNavigate('open')}`}>
             <div className='menuToggle' onClick={()=>dispatch(NavManagement())} ></div>
             <ul className='listcont'>
@@ -70,5 +74,8 @@ export const Nav = () => {
                 })}
             </ul>
         </div>
+        <LenguajeChange/>
+        <SocialBar data={campos} />
+      </>
   )
 }

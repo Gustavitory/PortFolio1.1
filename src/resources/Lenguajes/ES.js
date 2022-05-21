@@ -13,7 +13,7 @@ export const ES={
         descarga:'Descargar CV'
     },
     tech:{
-        title:'Tecnologias que manejo:',
+        title:'Tecnologías que manejo:',
         react:'React es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre.',
         redux:'Redux es una librería JavaScript de código abierto para el manejo del estado de las aplicaciones. Es comúnmente usada con otras librerías como React o Angular para la construcción de Interfaces de Usuario. Dan Abramov y Andrew Clark se inspiraron en otra librería de Facebook, Flux ​ para crear Redux.',
         js:'JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.',
@@ -28,5 +28,13 @@ export const ES={
         sequelize:'Sequelize es un ORM basado en la promesa para Node. js y io. js. Es compatible con los dialectos PostgreSQL , MySQL , MariaDB , SQLite y MSSQL y cuenta con soporte de transacciones sólidas, relaciones, replicación de lectura y más.',
         sql:'SQL es un lenguaje de dominio específico, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.​ ',
         git:'Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.'
+    },
+    about:{
+        personal:[
+            {title:'Una mirada mas alla de lo profesional.',subtitle: '',content:'A lo largo de mi vida me he caracterizado por ser alguien bastante empático, disciplinado y por sobre todo agradecido, esto me a permitido forjar relaciones amistosas bastante duraderas a lo largo de mi vida, me gusta conocer gente nueva y hacerme conocer, suelen describirme como alguien bastante extrovertido, me gusta dedicar tiempo a mis estudios pero también a otras actividades que me apacionan como lo son tocar la guitarra, jugar al fútbol y cocinar. Soy una persona con la que contarás para cualquier cosa, suelo preguntar mucho cuando no comprendo algo del todo, es una costumbre que me ha ayudado a avanzar en el mundo tech, aun me encuentro aprendiendo tecnologías nuevas y perfeccionando las que ya conozco sin embargo en un futuro me convertiré en un experto en cyber seguridad ya que en un mundo que cada vez se inclina mas al lado tecnológico hará mucha falta de personas que garanticen la seguridad de usuarios y organizaciones.'}
+        ],
+        proffesional:[
+            {title:'Fonax',subtitle:'Full Stack Engineer (ago-2021/jun-2022)',link:'http://www.fonax.com/web/',contact:'at.fonax@gmail.com / +584141420763',supervisor:'Atcherley Zapata',content:'Como desarrollador en FONAX cumpli varias tareas de desarrollo, entre ellas se encuentra: Desarrollo de funcionalidades para apps, desarrollo de servidores, mantenimiento de interfaces de usuario, desarrollo de aplicaciones, mantenimiento de aplicaciones, creacion de bases de datos y mantenimiento de bases de datos.'}
+        ]
     }
 }
