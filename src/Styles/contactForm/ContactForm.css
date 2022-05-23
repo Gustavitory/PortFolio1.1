@@ -1,0 +1,32 @@
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30%;
+    justify-content: space-around;
+    padding: 30px;
+    background:#001f25;
+    position: relative;
+}
+.normalInput{
+    background-color: #001113;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+}
+.message{
+    height: 140px;
+    resize: none;
+}
+textarea:focus, input:focus, input[type]:focus {
+    border-color: rgb(255, 144, 0);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255,144,0,0.6);
+    outline: 0 none;
+}
+.send{
+    position: absolute;
+    right: -80px;
+    font-size: 50px;
+    color: rgb(255, 144, 0);
+    cursor: pointer;
+}

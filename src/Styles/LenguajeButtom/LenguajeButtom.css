@@ -1,8 +1,8 @@
 .LenguajeButtom{
     cursor: pointer;
     background: white;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
