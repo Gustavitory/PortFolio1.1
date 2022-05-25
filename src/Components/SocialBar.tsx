@@ -22,7 +22,7 @@ export const SocialBar = ({data}:props) => {
             data.map(e=>{
                 return(
                     <li className='listItems' style={{'--clr':e.color} as color}>
-                        <a className='socialLink' href={`${e.link}`}><e.icon/></a>
+                        <a className='socialLink' href={`${e.link}`} target='_blank' rel="noreferrer" ><e.icon/></a>
                     </li>
                 )
             })
