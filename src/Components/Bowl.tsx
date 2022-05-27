@@ -9,6 +9,7 @@ export const Bowl = () => {
             <div className='liquid'/>
         </div>
         <div className='shadow'/>
+        <h1 style={{color:'white'}}>La version Responsive esta acutalmente en desarrollo.</h1>
     </SectionCont>
   )
 }
