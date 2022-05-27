@@ -1,0 +1,10 @@
+.carrouselDescription{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.676);
+    top: 60%;
+    width: 800px;
+    transform: translateX(15%);
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+}

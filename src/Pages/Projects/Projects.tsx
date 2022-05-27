@@ -1,7 +1,6 @@
 import React from 'react'
 import { Carrousel } from '../../Components/Carrousel'
 import { Nav } from '../../Components/Nav'
-import { useLenguaje } from '../../Hooks/useLenguaje';
 import { carrouselData } from '../../resources/CarrouselData';
 
 export const Projects = () => {

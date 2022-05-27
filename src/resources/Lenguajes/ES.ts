@@ -44,5 +44,23 @@ export const ES={
     contact:{
         title:'!Gracias¡',
         subtitle:'Me pondre en contacto contigo pronto.'
-    }
+    },
+    projects:{
+        bodegasDelSur:{
+            description:'Bodegas del sur es un proyecto que tuve el placer de realizar con un equipo de trabajo internacional, el proyecto consta de un ecommerce orientado a la venta y distribución de bebidas alcoholicas variadas. \n El proyecto se llevo a cabo bajo la metodología SCRUM, reuniones diarias entre los miembros y una reunión semanal con el líder de proyecto, organizando al equipo por tasks y áreas de desarrollo, las tecnologías empleadas para este proyecto fueron las siguientes: \n React.js\nRedux\nExpress.js\nNodejs\nSequelize\nPostgreSQL\nJavaScript\nCSS\nHTML',
+            github:'https://github.com/stars/Gustavitory/lists/wines'
+        },
+        elGramofono:{
+            description:'El Gramofono es un proyecto que tuve el placer de realizar con un equipo de trabajo internacional, el proyecto consta de un ecommerce orientado a la venta y distribución de instrumentos musicales. \n El proyecto se llevo a cabo bajo la metodología SCRUM, reuniones diarias entre los miembros y una reunión semanal con el líder de proyecto, organizando al equipo por tasks y áreas de desarrollo, las tecnologías empleadas para este proyecto fueron las siguientes: \n React.js\nRedux\nExpress.js\nNodejs\nSequelize\nPostgreSQL\nJavaScript\nCSS\nHTML',
+            github:'https://github.com/stars/Gustavitory/lists/gramofono'
+        },
+        harrypotter:{
+            description:'Harry Potter App es un pequeño proyecto que realizé durante tres días de desarrollo, mi objetivo era testear que tanto habia mejorado en el desarrollo con react, no se utilizó ninguna metodología agil para este proyecto. Se consumio una API gratuita sobre el tema.\n Las tecnologías usadas fueron:\nReact.js\nRedux\nCSS\nJavaScript\nHTML ',
+            github:'https://github.com/Gustavitory/harrypotter'
+        },
+        pokemon:{
+            description:'Pokemon App es un proyecto que nacio en un fin de semana, se consumió una API gratuita sobre el tema y se manejo de una manera bastante colorida e interactiva, el objetivo fue crear un nuevo proyecto para continuar reforzando mis conocimientos.\n Las tecnologías usadas en este proyecto fueron:\n React.js\nRedux\nCSS\nJavaScript\nHTML',
+            github:'https://github.com/Gustavitory/PokemonChallenge'
+        }
+       }
 }
