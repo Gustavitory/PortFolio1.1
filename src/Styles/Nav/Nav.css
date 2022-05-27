@@ -14,7 +14,7 @@
     width: 75px;
     background: #001f25;
     transition: 1s;
-    
+    z-index: 1000000;
 }
 .asdas{
     color:#001113
